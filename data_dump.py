@@ -2,7 +2,7 @@ import pymongo
 import pandas as pd
 import json
 
-client = pymongo.MongoClient("mongodb+srv://laksh:arun1894@cluster0.8ewppcx.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://laksh:password@cluster0.8ewppcx.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 db = client.test
 
